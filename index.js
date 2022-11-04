@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 const router = require('./router.js');
+const articles = require('./data/articles.json');
+app.locals.articles=articles;
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
 

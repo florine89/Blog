@@ -6,7 +6,17 @@ router.get('/',(request, response) => {
    response.render('index')
   });
 
+router.get('/article/id', (request, response) => {
 
+let requestedArticle;
+
+for (article of articles) {
+
+    if (article.id === request.params.id) {
+        requestedArticle = article;
+    }
+}
+});
 
 
 
