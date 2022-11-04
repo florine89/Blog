@@ -1,0 +1,23 @@
+{
+  "name": "s03e08-oblog-florine89",
+  "version": "1.0.0",
+  "description": "![Aperçu](integration/apercu.png \"Aperçu\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Moai/S03E08-OBlog-florine89.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Moai/S03E08-OBlog-florine89/issues"
+  },
+  "homepage": "https://github.com/O-clock-Moai/S03E08-OBlog-florine89#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
