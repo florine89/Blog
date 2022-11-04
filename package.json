@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/O-clock-Moai/S03E08-OBlog-florine89#readme",
   "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.18.2"
   }
 }
