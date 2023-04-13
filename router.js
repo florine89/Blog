@@ -1,28 +1,12 @@
-const { response } = require('express');
-const express = require('express');
+const express = require("express");
+
+const controller = require("./controller");
 const router = express.Router();
 
-router.get('/',(request, response) => {
-   response.render('index')
-  });
+router.get("/", controller.init);
 
-router.get('/article/id', (request, response) => {
+router.get("/article/:id", controller.getArticleById);
 
-let requestedArticle;
-
-for (article of articles) {
-
-    if (article.id === request.params.id) {
-        requestedArticle = article;
-    }
-}
-});
-
-
-
-
-
-
-
+router.get("/category/:categoryName", controller.getArticlesByCategory);
 
 module.exports = router;
